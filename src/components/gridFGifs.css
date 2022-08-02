@@ -1,0 +1,50 @@
+
+  .card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 10px;
+    width: 20rem;
+    height: 18rem;
+ background: rgba(0, 0, 0, 0.664);
+    align-items: center;
+    color: aliceblue;
+
+  }
+  .card img{
+    width: 80%;
+    border: 3px solid rgb(8, 185, 225) ;
+    margin-top: 10px;
+    
+
+  }
+
+  .title_searched{
+    color: aliceblue;
+    background:  rgba(11,144,230,1) ; 
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 1.5rem;
+  }
+  
+
+
+
+
+  
